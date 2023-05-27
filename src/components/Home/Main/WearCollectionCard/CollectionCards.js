@@ -222,7 +222,7 @@ export default function CollectionCards() {
 
       <div className="w-full h-fit flex items-center justify-center mt-14">
         <div className="w-[760px] h-[60px] cursor-pointer not-italic font-AeonikProMedium text-base leading-4 text-center text-black flex items-center justify-center rounded-lg border border-searchBgColor bg-btnBgColor">
-          Показать ещё 12 наборов
+          Показать ещё 30 наборов
         </div>
       </div>
     </div>

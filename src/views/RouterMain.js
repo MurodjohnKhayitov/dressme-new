@@ -17,8 +17,6 @@ import LoadingOpacity from "../Page/Loading/LoadingOpacity";
 // import HomePage from "../Page/Home/Home";
 
 import YandexMapDressMe from "../components/YandexMap";
-import AddUserPrivateInfo from "../components/Home/AddUser/AddUserPrivateData/AddUserPrivateData";
-import AddUserBodyData from "../components/Home/AddUser/AddUserBodyData/AddUserBodyData";
 import SignIn from "../components/Authentication/SignIn/SignIn";
 import SignUp from "../components/Authentication/SignUp/SignUp";
 // import ForgetPassword from "../components/Authentication/SignInDetail/ForgetPassword";
@@ -29,8 +27,6 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 // -------------------------------------
 import SkeletonHomeIndex from "../components/Home/Main/Skeleton/SkeletonHomeIndex";
-import AddUserPrivateSkeleton from "../components/Home/AddUser/Skeleton/AddUserPrivateSkeleton";
-import AddUserBodySkeleton from "../components/Home/AddUser/Skeleton/AddUserPrivateSkeleton";
 import SignInSkeletonIndex from "../components/Authentication/SignUpSkeleton";
 import SignUpSkeletonIndex from "../components/Authentication/SignUpSkeleton";
 import ShoppingStore from "../components/Home/Shop/ShoppingStore";
@@ -101,12 +97,8 @@ const RouterMain = () => {
                 </Suspense>
               }
             />
-            <Route
-              path="/add_user_private_data"
-              element={<AddUserPrivateInfo />}
-            />
+
             <Route path="/delivery-points" element={<YandexMapDressMe />} />
-            <Route path="/add_user_body_data" element={<AddUserBodyData />} />
             <Route
               path="/categoriesType"
               element={

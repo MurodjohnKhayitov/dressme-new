@@ -27,7 +27,6 @@ import { NavLink, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import TopHeader from "./top";
 import BottomHeader from "./bottom";
-import AddUserGender from "./AddUserNavbar/AddUserGender";
 import { dressMainData } from "../../ContextHook/ContextMenu";
 import CategoryNavbar from "./CategoryNavbar/CategoryNavbar";
 const NavbarBottomIndex = () => {
@@ -201,12 +200,7 @@ const NavbarBottomIndex = () => {
                       <CategoryNavbar />
                     </div>
                   ) : null}
-                  {locationWindow === "/add_user_private_data" ||
-                  locationWindow === "/add_user_body_data" ? (
-                    <div className=" my-3">
-                      <AddUserGender />
-                    </div>
-                  ) : null}
+
                   {/* {locationWindow === "/delivery-points" ? (
                     <div className="border border-red-500"></div>
                   ) : null} */}

@@ -354,7 +354,7 @@ const BottomHeader = () => {
             );
           })}
         <Link
-          to="/add_user_private_data"
+          to="/sign_in"
           className="bg-btnBgColor font-AeonikProMedium w-[44px] h-[44px] flex items-center justify-center border border-searchBgColor rounded-lg "
         >
           <img src={plus} alt="" />
