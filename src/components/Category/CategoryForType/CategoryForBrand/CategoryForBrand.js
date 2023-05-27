@@ -8,8 +8,6 @@ import {
 } from "../../../../assets/imgs";
 import { BsCheckLg } from "react-icons/bs";
 import { FiStar } from "react-icons/fi";
-import InputRange from "react-input-range";
-import "react-input-range/lib/css/index.css";
 import ReactSlider from "react-slider";
 
 export default function CategoryForBrand() {
