@@ -1,20 +1,5 @@
 import React, { useContext, useState } from "react";
-import {
-  discount,
-  bucket,
-  video,
-  delivery,
-  heart,
-  shirt,
-  addBag,
-  cardImg,
-  star,
-  setpersonIcons,
-  InputCheck,
-  ticketDiscount,
-  PrevCate,
-  NextCate,
-} from "../../../../assets/imgs";
+import { discount, bucket, video, delivery, heart, shirt, addBag, cardImg, star, setpersonIcons, InputCheck, ticketDiscount, PrevCate, NextCate } from "../../../../assets/imgs";
 
 import { dressMainData } from "../../../../ContextHook/ContextMenu";
 
@@ -414,6 +399,101 @@ export default function CategoryCards() {
         { id: 6, value: 6, action: false, colors: "bg-sky-500" },
       ],
     },
+    {
+      id: 17,
+      discount: "-30%",
+      video: true,
+      diliver: true,
+      like: true,
+      buy: true,
+      ProducImg: "",
+      noProductImg: cardImg,
+      title: "Line-Pattern Zipper Sweatshirt (Original Quality)",
+      starCount: 256,
+      shirtSize: "M | 3XL",
+      sale: "258.000",
+      price: "372.000",
+      changeColor: [
+        { id: 1, value: 1, action: false, colors: "bg-purple-700" },
+        { id: 2, value: 2, action: false, colors: "bg-green-600" },
+        { id: 3, value: 3, action: false, colors: "bg-red-700" },
+        { id: 4, value: 4, action: false, colors: "bg-yellow-500" },
+        { id: 5, value: 5, action: false, colors: "bg-black" },
+        { id: 6, value: 6, action: false, colors: "bg-sky-500" },
+      ],
+    },
+    {
+      id: 18,
+      discount: "-30%",
+      video: true,
+      diliver: true,
+      like: true,
+      buy: true,
+      ProducImg: "",
+      noProductImg: cardImg,
+      title: "Line-Pattern Zipper Sweatshirt (Original Quality)",
+      starCount: 256,
+      shirtSize: "M | 3XL",
+      sale: "258.000",
+      price: "372.000",
+      changeColor: [
+        { id: 1, value: 1, action: false, colors: "bg-purple-700" },
+        { id: 2, value: 2, action: false, colors: "bg-green-600" },
+        { id: 3, value: 3, action: false, colors: "bg-red-700" },
+        { id: 4, value: 4, action: false, colors: "bg-yellow-500" },
+        { id: 5, value: 5, action: false, colors: "bg-black" },
+        { id: 6, value: 6, action: false, colors: "bg-sky-500" },
+      ],
+    },
+    {
+      id: 19,
+      discount: "-30%",
+      video: true,
+      diliver: true,
+      like: true,
+      buy: true,
+      ProducImg: "",
+      noProductImg: cardImg,
+      title: "Line-Pattern Zipper Sweatshirt (Original Quality)",
+
+      starCount: 256,
+      shirtSize: "M | 3XL",
+      sale: "",
+      price: "372.000",
+      changeColor: [
+        { id: 1, value: 1, action: false, colors: "bg-purple-700" },
+        { id: 2, value: 2, action: false, colors: "bg-green-600" },
+        { id: 3, value: 3, action: false, colors: "bg-red-700" },
+        { id: 4, value: 4, action: false, colors: "bg-yellow-500" },
+        { id: 5, value: 5, action: false, colors: "bg-black" },
+        { id: 6, value: 6, action: false, colors: "bg-sky-500" },
+      ],
+    },
+    {
+      id: 20,
+      discount: "-30%",
+      video: true,
+      diliver: true,
+      like: true,
+      buy: true,
+      ProducImg:
+        "https://images.uzum.uz/cfh16dd40v9uauhi42hg/t_product_540_high.jpg#1677855222081",
+      noProductImg: cardImg,
+      title: "Line-Pattern Zipper Sweatshirt (Original Quality)",
+
+      starCount: 256,
+      shirtSize: "M | 3XL",
+      sale: "258.000",
+      price: "372.000",
+      changeColor: [
+        { id: 1, value: 1, action: false, colors: "bg-purple-700" },
+        { id: 2, value: 2, action: false, colors: "bg-green-600" },
+        { id: 3, value: 3, action: false, colors: "bg-red-700" },
+        { id: 4, value: 4, action: false, colors: "bg-yellow-500" },
+        { id: 5, value: 5, action: false, colors: "bg-black" },
+        { id: 6, value: 6, action: false, colors: "bg-sky-500" },
+      ],
+    },
   ]);
 
   const [dressInfo] = useContext(dressMainData);
@@ -456,7 +536,7 @@ export default function CategoryCards() {
 
   return (
     <div className="flex flex-col box-border ">
-      <div className="flex justify-between flex-wrap gap-y-3 ">
+      <div className="flex justify-between flex-wrap gap-y-2 gap-x-2">
         {productList.map((data) => {
           return (
             <div
