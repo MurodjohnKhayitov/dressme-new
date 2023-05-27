@@ -5,8 +5,6 @@ import {
   clothing,
   delivery,
 } from "../../../../assets/imgs";
-import InputRange from "react-input-range";
-import "react-input-range/lib/css/index.css";
 import { BiChevronDown } from "react-icons/bi";
 import ReactSlider from "react-slider";
 
