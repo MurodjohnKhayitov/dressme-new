@@ -80,7 +80,7 @@ export default function CategoryForBrand() {
       { id: 8, action: false, size: "44" },
     ],
     ArrayRating: [
-      { id: 1, check: false, value: 4, text: "& Up" },
+      { id: 1, check: false, value: 4, text: "& Больше" },
       { id: 2, check: false, value: 4, text: "" },
       { id: 3, check: false, value: 2, text: "" },
     ],
@@ -174,7 +174,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Бренды
               </span>
               <img
@@ -185,7 +185,7 @@ export default function CategoryForBrand() {
                 alt=""
               />
             </div>
-            <span className="not-italic font-AeonikProMedium text-base leading-4 text-fullBlue cursor-pointer">
+            <span className="not-italic font-AeonikProMedium text-sm leading-4 text-fullBlue cursor-pointer">
               Очистить все
             </span>
           </div>
@@ -199,7 +199,7 @@ export default function CategoryForBrand() {
             {/* Search */}
             <div className="h-[44px] w-full flex items-center justify-between px-4 border border-searchBgColor rounded-lg ">
               <input
-                className="w-[85%] h-full "
+                className="w-[85%] h-full text-sm font-AeonikProRegular"
                 type="text"
                 name="search"
                 placeholder="Поиск бренда"
@@ -228,9 +228,9 @@ export default function CategoryForBrand() {
                         <BsCheckLg size={12} />
                       </span>
                     </div>
-                    <div className="flex items-center not-italic mt-1  font-AeonikProRegular text-lg leading-4 text-black">
+                    <div className="flex items-center not-italic mt-1  font-AeonikProRegular text-sm leading-4 text-black">
                       {data?.name}
-                      <span className=" not-italic ml-2 font-AeonikProRegular text-base leading-4 text-setTexOpacity">
+                      <span className=" not-italic ml-2 font-AeonikProRegular text-sm leading-4 text-setTexOpacity">
                         ({data?.count})
                       </span>
                     </div>
@@ -255,7 +255,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Budget
               </span>
               <img
@@ -284,7 +284,7 @@ export default function CategoryForBrand() {
                 </button>
               ))}
             </div>
-            <div className="w-full h-12 bg-bgCategory  mt-4 pb-1">
+            <div className="w-full h-12 bg-bgCategory  mt-4 pb-1 px-[2px]">
               <div className=" w-full flex justify-center items-center gap-x-1">
                 <div className=" h-fit  not-italic font-AeonikProMedium text-base leading-4 text-center text-fullBlue tracking-[1%]">
                   {values[0]}
@@ -327,7 +327,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Цвет
               </span>
               <img
@@ -338,13 +338,13 @@ export default function CategoryForBrand() {
                 alt=""
               />
             </div>
-            <span className="not-italic font-AeonikProMedium text-base leading-4 text-fullBlue cursor-pointer">
+            <span className="not-italic font-AeonikProMedium text-sm leading-4 text-fullBlue cursor-pointer">
               Очистить все
             </span>
           </div>
           {/* Colors */}
           <div
-            className={`w-full  flex flex-wrap items-center   bg-white hover:backdrop-brightness-125 hover:bg-white/60 transition ease-out duration-300 gap-x-2 gap-y-2 border-0  overflow-hidden  ${
+            className={`w-full px-[2px] flex justify-between flex-wrap items-center   bg-white hover:backdrop-brightness-125 hover:bg-white/60 transition ease-out duration-300 gap-x-[10px] gap-y-[10px] border-0  overflow-hidden  ${
               state?.ColorsShow
                 ? "duration-300 h-0"
                 : "duration-300 h-[80px] mt-5"
@@ -381,7 +381,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Доступность
               </span>
               <img
@@ -420,10 +420,10 @@ export default function CategoryForBrand() {
                       </span>
                     )}
                   </div>
-                  <div className="flex items-center not-italic mr-2 font-AeonikProRegular text-base leading-4 text-black">
+                  <div className="flex items-center not-italic mr-2 font-AeonikProRegular text-sm leading-4 text-black">
                     {data?.title}
                   </div>
-                  <div className="flex items-center not-italic font-AeonikProRegular text-base leading-4 text-setTexOpacity">
+                  <div className="flex items-center not-italic font-AeonikProRegular text-sm leading-4 text-setTexOpacity">
                     ({data?.count})
                   </div>
                 </div>
@@ -449,7 +449,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Отзывы клиентов
               </span>
               <img
@@ -511,7 +511,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Размер одежды
               </span>
               <img
@@ -560,7 +560,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Размер брюк
               </span>
               <img
@@ -609,7 +609,7 @@ export default function CategoryForBrand() {
               }
               className="flex items-center cursor-pointer select-none"
             >
-              <span className="not-italic mr-1 font-AeonikProMedium text-lg leading-4 text-black">
+              <span className="not-italic mr-1 font-AeonikProMedium text-base leading-4 text-black">
                 Размер обуви
               </span>
               <img
