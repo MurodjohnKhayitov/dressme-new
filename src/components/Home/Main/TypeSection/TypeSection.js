@@ -9,6 +9,7 @@ import {
 } from "../../../../assets/imgs";
 
 import { dressMainData } from "../../../../ContextHook/ContextMenu";
+import { SeasonSquare } from "../../../../AssetsMain/icons";
 
 export default function TypeSection() {
   const [dressInfo] = useContext(dressMainData);
@@ -110,17 +111,22 @@ export default function TypeSection() {
   ];
 
   let dataStyle = "";
+  let genderStyle = "";
   if (dressInfo?.type == 1111) {
-    dataStyle = " hover:text-borderSpring ";
+    dataStyle = " #008F0E ";
+    genderStyle = "hover:text-borderSpring";
   }
   if (dressInfo?.type == 2222) {
-    dataStyle = " hover:text-borderSummer";
+    dataStyle = " #EAA700";
+    genderStyle = "hover:text-borderSummer";
   }
   if (dressInfo?.type == 3333) {
-    dataStyle = " hover:text-borderAutumm ";
+    dataStyle = " #E17A02 ";
+    genderStyle = "hover:text-borderAutumm";
   }
   if (dressInfo?.type == 4444) {
-    dataStyle = " hover:text-borderWinter ";
+    dataStyle = " #007DCA ";
+    genderStyle = "hover:text-borderWinter";
   }
 
   return (
@@ -149,18 +155,11 @@ export default function TypeSection() {
                   </p>
                   <p className="flex items-center cursor-pointer">
                     <span
-                      className={`not-italic font-AeonikProMedium md:text-sm ss:text-base lg:text-base  leading-4 text-right mr-2 text-black ${dataStyle}`}
+                      className={`not-italic font-AeonikProMedium md:text-sm ss:text-base lg:text-base  leading-4 text-right mr-2 text-black ${genderStyle}`}
                     >
                       {data?.buy}
                     </span>
-
-                    {service
-                      .filter((data) => data.id == dressInfo.type)
-                      .map((data) => {
-                        return (
-                          <img key={data?.id} src={data?.imgFull} alt="next" />
-                        );
-                      })}
+                    <SeasonSquare colors={dataStyle} />
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap gap-y-2 justify-between mt-4">
