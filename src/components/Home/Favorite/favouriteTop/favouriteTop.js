@@ -6,8 +6,6 @@ import {
   delivery,
 } from "../../../../assets/imgs";
 
-import { BiChevronDown } from "react-icons/bi";
-
 export default function FavouriteTop() {
   const [value, SetValue] = useState({ min: 20, max: 150 });
 
