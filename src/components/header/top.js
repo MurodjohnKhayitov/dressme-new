@@ -207,14 +207,6 @@ const TopHeader = () => {
               }
             )}
           </div>
-
-          <div className="flex h-full px-[11px] items-center bg-white rounded ml-3 cursor-pointer ">
-            {/* Glasses svg img */}
-            
-            <span className="h-full flex items-center font-AeonikProMedium text-[13px] ">
-              Спец. возможности
-            </span>
-          </div>
         </div>
         <div className="right h-full flex items-center ">
           <Link to="#" className="flex items-center h-full ">

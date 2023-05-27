@@ -98,7 +98,7 @@ const CategoryNavbar = () => {
     <div className="flex flex-col min-h-[44px]  justify-center items-center m-0 p-0 box-border ">
       <div className="max-w-[1280px] w-[100%] flex items-center justify-between items-center m-auto   ">
         <div className="flex items-center ">
-          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%] mr-[10px]">
+          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%]">
             <NavLink to='/' className="flex items-center cursor-pointer pt-[4px] px-[10px] not-italic font-AeonikProMedium text-sm leading-4 text-black tracking-[1%]">
               Главная
             </NavLink>
@@ -106,7 +106,7 @@ const CategoryNavbar = () => {
               <img className="" src={iIcons} alt="" />
             </span>
           </div>
-          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%] mr-[10px]">
+          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%]">
             <NavLink className="flex items-center cursor-pointer mt-[6px] px-[10px] not-italic font-AeonikProMedium text-sm leading-4 text-black tracking-[1%]">
               Мужская одежда
             </NavLink>
@@ -114,7 +114,7 @@ const CategoryNavbar = () => {
               <img className="" src={iIcons} alt="" />
             </span>
           </div>
-          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%] mr-[10px]">
+          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%]">
             <NavLink className="flex items-center cursor-pointer mt-[6px] px-[10px] not-italic font-AeonikProMedium text-sm leading-4 text-black tracking-[1%]">
               Все категории
             </NavLink>
@@ -122,7 +122,7 @@ const CategoryNavbar = () => {
               <img className="" src={iIcons} alt="" />
             </span>
           </div>
-          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%] mr-[10px]">
+          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%]">
             <NavLink className="flex items-center cursor-pointer mt-[6px] px-[10px] not-italic font-AeonikProMedium text-sm leading-4 text-black tracking-[1%]">
               Спортивное
             </NavLink>
@@ -130,7 +130,7 @@ const CategoryNavbar = () => {
               <img className="" src={iIcons} alt="" />
             </span>
           </div>
-          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%] mr-[10px]">
+          <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%]">
             <NavLink className="flex items-center cursor-pointer mt-[6px] px-[10px] not-italic font-AeonikProMedium text-sm leading-4 text-setTexOpacity tracking-[1%]">
               Кроссовки
             </NavLink>

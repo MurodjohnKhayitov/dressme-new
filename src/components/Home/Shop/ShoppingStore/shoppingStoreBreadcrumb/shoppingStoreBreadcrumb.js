@@ -83,7 +83,6 @@ const ShoppingStoreBreadCrumb = () =>{
             <div className="max-w-[1280px] w-[100%] flex items-center justify-between m-auto">
                 <div className="flex items-center ">
                     <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%] mr-[10px]">
-                        <img src={homeBreadcrumb} alt="" />
                         <NavLink to="/" className="flex items-center cursor-pointer pt-[4px] px-[10px] not-italic font-AeonikProMedium text-sm leading-4 text-black tracking-[1%]">
                             Главная
                         </NavLink>
@@ -92,8 +91,7 @@ const ShoppingStoreBreadCrumb = () =>{
                         </span>
                     </div>
                     <div className="not-italic font-AeonikProRegular flex items-center  text-sm leading-4 text-black tracking-[1%] mr-[10px]">
-                        <img src={shopBreadcrumb} alt="" />
-                        <NavLink to='#' className="flex items-center cursor-pointer mt-[6px] px-[10px] not-italic font-AeonikProMedium text-sm leading-4 tracking-[1%] text-setTexOpacity">
+                        <NavLink to='#' className="flex items-center cursor-pointer mt-[6px] not-italic font-AeonikProMedium text-sm leading-4 tracking-[1%] text-setTexOpacity">
                             Магазины
                         </NavLink>
                     </div>
