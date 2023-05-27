@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import MainPageSliders from "./BrandTypeSlider/MainPageSliders";
-import ClothesSlider from "./ClothesSlider/ClothesSlider";
 import TypeSection from "./TypeSection/TypeSection";
 import CollectionCards from "./WearCollectionCard/CollectionCards";
 export default function HomeIndex() {
@@ -15,7 +14,6 @@ export default function HomeIndex() {
         <div className="w-[100%] h-fit">
           <MainPageSliders />
           <CollectionCards />
-          <ClothesSlider />
           <TypeSection />
         </div>
       </div>
